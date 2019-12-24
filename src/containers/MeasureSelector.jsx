@@ -1,7 +1,8 @@
-import {Button, MenuItem, Tag} from "@blueprintjs/core";
+import {Button, Tag} from "@blueprintjs/core";
 import {Select} from "@blueprintjs/select";
 import React, {Component} from "react";
 import FilterList from "../components/FilterList";
+import {MenuItem} from "../components/Menu";
 import NavigationList from "../components/NavigationList";
 
 /** @type {React.FC<{name: string}>} */

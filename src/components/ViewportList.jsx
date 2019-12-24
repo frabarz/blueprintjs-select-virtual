@@ -8,6 +8,7 @@ const ViewPortList = ({
     fixed = false,
     overscan = 10,
     children = null,
+    stickyIndexes = [],
     scrollToIndex = -1
 }) => {
     const itemMinHeightWithMargin = itemMinHeight + margin;
@@ -138,20 +139,33 @@ const ViewPortList = ({
         }
 
         const result = [];
+        const isWithinRange = (a, x, b) => x >= a && x <= b;
+        
+        let startRefFlag = false;
+        const startRefSwitch = () => {
+            startRefFlag = true;
+            return startRef;
+        }
 
-        for (let index = normalizedStartIndex; index <= endIndex; ++index) {
-            result.push(
-                children({
-                    innerRef:
-                        index === normalizedStartIndex ? startRef : index === scrollToIndex ? scrollRef : undefined,
-                    index,
-                    style: {
-                        marginTop:
-                            index === normalizedStartIndex ? normalizedStartIndex * itemMinHeightWithMargin : undefined,
-                        marginBottom: index === endIndex ? (maxIndex - endIndex) * itemMinHeightWithMargin : margin
-                    }
-                })
-            );
+        for (let index = 0; index <= maxIndex; ++index) {
+            const isStickyIndex = stickyIndexes.includes(index);
+            if (isStickyIndex || isWithinRange(normalizedStartIndex, index, endIndex)) {
+                result.push(
+                    children({
+                        innerRef: !isStickyIndex 
+                            ? !startRefFlag 
+                                ? startRefSwitch() 
+                                : index === scrollToIndex ? scrollRef : undefined 
+                            : undefined,
+                        index,
+                        style: {
+                            marginTop:
+                                result.length === 0 ? normalizedStartIndex * itemMinHeightWithMargin : undefined,
+                            marginBottom: index === endIndex ? (maxIndex - endIndex) * itemMinHeightWithMargin : margin
+                        }
+                    })
+                );
+            }
         }
 
         return result;

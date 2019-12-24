@@ -1,6 +1,6 @@
-import {Classes, Menu} from "@blueprintjs/core";
+import {Classes, H6, Menu} from "@blueprintjs/core";
 import {rollup} from "d3-array";
-import React, {useMemo, useCallback} from "react";
+import React, {useCallback, useMemo} from "react";
 // import List from "react-viewport-list";
 import List from "./ViewportList";
 
@@ -10,48 +10,29 @@ import List from "./ViewportList";
  * @property {string[]} headers
  */
 
-/**
- * @typedef MenuHeaderProps
- * @property {string[]} headers 
- * @property {any} innerRef
- * @property {any} style
- */
-
-/** @type {React.FC<MenuHeaderProps>} */
-const MenuHeaderItem = function({headers, innerRef, style}) {
-  return (
-    <li
-      className={`${Classes.MENU_HEADER} filter-list-optgroup`}
-      key={headers.join("|")}
-      ref={innerRef}
-      style={style}
-    >
-      {headers.map(token => (
-        <strong key={token} className={Classes.HEADING}>
-          {token}
-        </strong>
-      ))}
-    </li>
-  );
-};
-
+/** @returns {item is MenuHeader} */
+function isMenuHeader(item) {
+  return item && item.isOptgroup;
+}
 /** 
  * @template T
  * @type {React.FC<import("@blueprintjs/select").IItemListRendererProps<T> & {levels: ((d: T) => string)[]}>} 
  */
 const FilterList = function({activeItem, filteredItems, levels, renderItem}) {
-  const groupedItems = useMemo(
+  const [groupedItems, stickyIndices] = useMemo(
     () => {
       const groupedItems = [];
+      const stickyIndices = [];
       const groupComposer = group => {
         const firstObj = group[0];
         const headers = levels
           .map(fn => fn(firstObj))
           .filter((token, index, list) => list.indexOf(token) === index);
+        stickyIndices.push(groupedItems.length);
         groupedItems.push({isOptgroup: true, headers}, ...group);
       };
       rollup(filteredItems, groupComposer, ...levels);
-      return groupedItems;
+      return [groupedItems, stickyIndices];
     },
     [filteredItems, levels]
   );
@@ -59,25 +40,33 @@ const FilterList = function({activeItem, filteredItems, levels, renderItem}) {
   const listRenderer = useCallback(
     ({innerRef, index, style}) => {
       const item = groupedItems[index];
-      if (isOptgroup(item)) {
+      if (isMenuHeader(item)) {
+        const key = item.headers.join("-");
         return (
-          <MenuHeaderItem
-            headers={item.headers}
-            key={`header-${item.headers.join("-")}`}
-            innerRef={innerRef}
+          // <Fragment>
+          //   <li className="positioner" key={`position-${key}`} style={style} ref={innerRef} />
+          <li
+            className={`${Classes.MENU_HEADER} filter-list-optgroup`}
+            key={`header-${key}`}
             style={style}
-          />
+          >
+            <H6>{item.headers.join("\n")}</H6>
+          </li>
+          // </Fragment>
         );
       }
       else {
-        const element = renderItem(item, index);
-        return element ? React.cloneElement(element, {ref: innerRef, style}) : null;
+        return (
+          <li key={`item-${index}`} ref={innerRef} style={style}>
+            {renderItem(item, index)}
+          </li>
+        );
       }
     },
     [groupedItems]
   );
 
-  const activeIndex = filteredItems.indexOf(activeItem);
+  const activeIndex = groupedItems.indexOf(activeItem);
 
   return (
     <Menu className="filter-list-content">
@@ -86,16 +75,12 @@ const FilterList = function({activeItem, filteredItems, levels, renderItem}) {
         listLength={groupedItems.length}
         overscan={6}
         scrollToIndex={activeIndex}
+        stickyIndexes={stickyIndices}
       >
         {listRenderer}
       </List>
     </Menu>
   );
 };
-
-/** @returns {item is MenuHeader} */
-function isOptgroup(item) {
-  return item && item.isOptgroup;
-}
 
 export default FilterList;

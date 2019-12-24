@@ -14,10 +14,14 @@
 .filter-list-content {
   max-height: 400px;
   overflow: auto;
+  position: relative;
+  width: 400px;
 }
 .filter-list-optgroup {
+  background: #fff;
   position: sticky;
   top: 0;
+  white-space: pre-line;
   z-index: 100;
 }
 .filter-list-optgroup strong {
