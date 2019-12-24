@@ -1,0 +1,4660 @@
+[
+  {
+    "name": "Average Age",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Age",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Income",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Income",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Usual Hours Worked Per Week",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Usual Hours Worked Per Week",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Wage",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Wage",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Population",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Population",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Record Count",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Record Count",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Population",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Population",
+    "dimNames": [
+      "PUMS Occupation",
+      "Geography",
+      "PUMS Industry",
+      "Citizenship Status",
+      "Employment Status"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Demographics",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Birthplace",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Place of Birth",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Birthplace",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Place of Birth",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Citizenship Status",
+    "dimNames": [
+      "Geography",
+      "Citizenship",
+      "Citizenship Status Granular",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Citizenship Status",
+    "dimNames": [
+      "Geography",
+      "Citizenship",
+      "Citizenship Status Granular",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Foreign-Born Citizens",
+    "dimNames": [
+      "Geography",
+      "Place of Birth",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Foreign-Born Citizens",
+    "dimNames": [
+      "Geography",
+      "Place of Birth",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Hispanic Population",
+    "dimNames": [
+      "Geography",
+      "Race",
+      "Ethnicity",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Hispanic Population",
+    "dimNames": [
+      "Geography",
+      "Race",
+      "Ethnicity",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Languages Spoken",
+    "dimNames": [
+      "Geography",
+      "English Ability",
+      "Language Spoken at Home",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Languages Spoken",
+    "dimNames": [
+      "Geography",
+      "English Ability",
+      "Language Spoken at Home",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Age",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Age",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Age by Citizenship",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Nativity Status",
+      "Naturalized Status",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Age by Citizenship",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Nativity Status",
+      "Naturalized Status",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Heritage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans",
+    "dimNames": [
+      "Geography",
+      "Period of Service",
+      "Period of Service Granular",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Military",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans",
+    "dimNames": [
+      "Geography",
+      "Period of Service",
+      "Period of Service Granular",
+      "Year"
+    ],
+    "topic": "Diversity",
+    "subtopic": "Military",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 1,000 or More Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 1-4 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 10-19 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 100-249 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 20-49 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 250-499 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 5-9 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 50-99 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number of Establishments: 500-999 Employee Size Class",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Annual Payroll ($1000) with Noise",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Mid-March Employees with Noise",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Number of Establishments",
+    "dimNames": [
+      "BLS Industry",
+      "Geography",
+      "PUMS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Business Patterns",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Industry Average Hourly Earnings",
+    "dimNames": [
+      "BLS Industry Flat",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Average Weekly Hours",
+    "dimNames": [
+      "BLS Industry Flat",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Employees Thousands",
+    "dimNames": [
+      "BLS Industry Flat",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Workforce by Industry and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Workforce by Industry and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Workforce by Occupation and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Occupation",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Workforce by Occupation and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Occupation",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Employment",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Millions Of Dollars",
+    "dimNames": [
+      "Destination",
+      "Origin",
+      "SCTG",
+      "Transportation Mode",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Freight",
+    "sourceName": "Department of Transportation Federal Highway Administration"
+  },
+  {
+    "name": "Thousands Of Tons",
+    "dimNames": [
+      "Destination",
+      "Origin",
+      "SCTG",
+      "Transportation Mode",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Freight",
+    "sourceName": "Department of Transportation Federal Highway Administration"
+  },
+  {
+    "name": "Obligation Amount",
+    "dimNames": [
+      "Action Date",
+      "Geography",
+      "NAPCS",
+      "Agency",
+      "Product Service Code"
+    ],
+    "topic": "Economy",
+    "subtopic": "Government Spending",
+    "sourceName": "USAspending.gov"
+  },
+  {
+    "name": "Total Loan Value",
+    "dimNames": [
+      "Action Date",
+      "Geography",
+      "NAPCS",
+      "Agency",
+      "Product Service Code"
+    ],
+    "topic": "Economy",
+    "subtopic": "Government Spending",
+    "sourceName": "USAspending.gov"
+  },
+  {
+    "name": "Median Earnings by Industry",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industries",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Earnings by Industry",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industries",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Earnings by Industry and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industries",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Earnings by Industry and Gender",
+    "dimNames": [
+      "Geography",
+      "ACS Industry",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industries",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Value Millions",
+    "dimNames": [
+      "Commodity IO Code",
+      "Industry IO Code",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Flows",
+    "sourceName": "Bureau of Economic Analysis"
+  },
+  {
+    "name": "Industry Jobs CARC 2006-2016",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs CARC 2016-2026",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Change 2006-2016",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Change 2016-2026",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2006",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2016",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2026",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2006",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2016",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2026",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output CARC 2006-2016",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output CARC 2016-2026",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Industry Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Change Percent 2016-2026",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Change Thousands 2006-2016",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Openings Thousands 2016-2026",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Percent 2016",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Percent 2026",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Thousands 2016",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Thousands 2026",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation Projections",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Median Earnings by Occupation",
+    "dimNames": [
+      "Geography",
+      "ACS Occupation",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Median Earnings by Occupation",
+    "dimNames": [
+      "Geography",
+      "ACS Occupation",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Occupation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Score",
+    "dimNames": [
+      "PUMS Occupation",
+      "Skill Element",
+      "Year"
+    ],
+    "topic": "Economy",
+    "subtopic": "Skills",
+    "sourceName": "O*NET Online"
+  },
+  {
+    "name": "Admissions Enrolled FT Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled FT Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled FT Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled PT Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled PT Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled PT Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Enrolled Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Admissions Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Applicants Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Applicants Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Applicants Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Number of Applicants Submitting SAT Scores",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Percent of Applicants Submitting SAT Scores",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Critical Reading 25th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Critical Reading 75th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Math 25th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Math 75th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Writing 25th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "SAT Writing 75th Percentile",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Yield Men",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Yield Total",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Yield Women",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Admissions",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Borrowers Entered Repayment",
+    "dimNames": [
+      "Geography",
+      "OPEID",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Default Rate",
+    "sourceName": "Department of Education"
+  },
+  {
+    "name": "Borrowers In Default",
+    "dimNames": [
+      "Geography",
+      "OPEID",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Default Rate",
+    "sourceName": "Department of Education"
+  },
+  {
+    "name": "Default Rate",
+    "dimNames": [
+      "Geography",
+      "OPEID",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Default Rate",
+    "sourceName": "Department of Education"
+  },
+  {
+    "name": "Enrollment",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Enrollment Status",
+      "Gender",
+      "IPEDS Race"
+    ],
+    "topic": "Education",
+    "subtopic": "Enrollment",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Number Of Institutions",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Enrollment Status",
+      "Gender",
+      "IPEDS Race"
+    ],
+    "topic": "Education",
+    "subtopic": "Enrollment",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Benefits Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Depreciation Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment 100th Percentile",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment 20th Percentile",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment 40th Percentile",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment 60th Percentile",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment 80th Percentile",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Endowment Value",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Federal Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Interest Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Investment Income",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Local Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Local Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Benefits Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Depreciation Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Endowment Value",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Federal Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Interest Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Investment Income",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Local Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Local Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Months Of Employment For Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Operation Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Other Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Other Federal Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Outlays Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Outlays Noninstructional Employees",
+    "dimNames": [
+      "University",
+      "IPEDS Occupation",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Pell Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Private Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Research Total",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Salary Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median State Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median State Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Assets",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Expenses",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Liabilities",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Noninstructional Employees",
+    "dimNames": [
+      "University",
+      "IPEDS Occupation",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Revenue",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Salaries",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Tuition And Fees",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Operation Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Other Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Other Federal Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Pell Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Private Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Research Total",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Salary Expenses",
+    "dimNames": [
+      "University",
+      "IPEDS Expense Category",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Grants",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Grants And Contracts",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Assets",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Expenses",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Liabilities",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Months Of Employment For Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Noninstructional Employees",
+    "dimNames": [
+      "University",
+      "IPEDS Occupation",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Outlays Instructional Employees",
+    "dimNames": [
+      "University",
+      "Academic Rank",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Outlays Noninstructional Employees",
+    "dimNames": [
+      "University",
+      "IPEDS Occupation",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Revenue",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Salaries",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Tuition And Fees",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Finance",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Average Number in Living Arrangement",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Amount Federal Loans",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Average Net Price Grant Or Scholarship Aid",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Averge Net Price Federal Aid",
+    "dimNames": [
+      "University",
+      "Income Range",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Grant Or Scholarship Award",
+    "dimNames": [
+      "University",
+      "Income Range",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Number Federal Loans",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Number With Any Aid",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Percent Federal Loans",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Percent With Any Aid",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Percent With Grant Aid",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Amount Federal Loans",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Number Awarded Grant Or Scholarship",
+    "dimNames": [
+      "University",
+      "Income Range",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Number Federal Loans",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Number In Income Bracket",
+    "dimNames": [
+      "University",
+      "Income Range",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Number With Any Aid",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Number in Living Arrangement",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Financial Aid",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Cohort Size",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Gender",
+      "IPEDS Race",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Completions",
+    "dimNames": [
+      "Geography",
+      "CIP",
+      "University",
+      "Degree",
+      "Gender"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Completions Growth",
+    "dimNames": [
+      "Geography",
+      "CIP",
+      "University",
+      "Degree",
+      "Gender"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Graduation Rate",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Gender",
+      "IPEDS Race",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Number Completers BA",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Program Type",
+      "Timeframe",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Number Of Finishers",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Gender",
+      "IPEDS Race",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Number Of Universities",
+    "dimNames": [
+      "Geography",
+      "CIP",
+      "University",
+      "Degree",
+      "Gender"
+    ],
+    "topic": "Education",
+    "subtopic": "Graduation",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Other Student Expenses",
+    "dimNames": [
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Living Expenses",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Room And Board",
+    "dimNames": [
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Living Expenses",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Other Student Expenses",
+    "dimNames": [
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Living Expenses",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Room And Board",
+    "dimNames": [
+      "University",
+      "Living Arrangement",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Living Expenses",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Full Time Retention Rate",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Retention Rates",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Part Time Retention Rate",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Retention Rates",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Student Faculty Ratio",
+    "dimNames": [
+      "University",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Retention Rates",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Score",
+    "dimNames": [
+      "CIP",
+      "Skill Element",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Skills",
+    "sourceName": "O*NET Online"
+  },
+  {
+    "name": "Books And Supplies",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Books And Supplies",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Graduate Students Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Graduate Students Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Graduate Students Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Graduate Students Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "District Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Median Total Graduates",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Graduate Students Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Graduate Students Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Graduate Students Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Graduate Students Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Out Of State Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Tuition and Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published District Tuition and Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Tuition and Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published Out Of State Tuition and Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Tuition and Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Published State Tuition and Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Graduate Students Fee",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Graduate Students Fee",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Graduate Students Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Graduate Students Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Tuition",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "State Tuition",
+    "dimNames": [
+      "Geography",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "Total Graduates",
+    "dimNames": [
+      "CIP",
+      "University",
+      "Sector",
+      "Year"
+    ],
+    "topic": "Education",
+    "subtopic": "Tuition",
+    "sourceName": "Integrated Postsecondary Education Data System (IPEDS)"
+  },
+  {
+    "name": "30-Day Hospital Readmission Rate Among Medicare Patients",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Adult Hospice Patients Who Received Care Consistent With Their End-Of-Life Wishes",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Adult Patients Who Did Not Receive Good Communication About Hospital Discharge",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Adults Reporting Not Having a Personal Doctor",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Adults Who Haven't Seen a Doctor in the Past 12 Months Due to Cost",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Adults Who Reported Home Health Providers Always Explained Things in a Way That Was Easy to Understand",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Deaths Per 1,000 Adult Hospital Admissions With Pneumonia",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Direct Purchase Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Direct Purchase Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Direct Purchase Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Direct Purchase Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Employer Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Employer Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Employer Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Employer Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Home Health Care Patients Whose Management of Oral Medications Improved",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Long-Stay Medicare Nursing Home Residents Hospitalized Within Six-Month Period",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Long-Stay Nursing Home Residents With Too Much Weight Loss",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Agency for Healthcare Research and Quality"
+  },
+  {
+    "name": "Mammography Screening",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Medicaid Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicaid Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicaid Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicaid Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicare Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicare Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicare Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicare Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Medicare Patients Receiving Home Health Whose Ability to Walk or Move Around Improved",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Mental Health Service Use Among Adults With Mental Illness",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Military Health Insurance Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Military Health Insurance Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Military Health Insurance Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Military Health Insurance Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number Covered",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Number Covered",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Patient to Dentist Ratio",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Patient to Mental Health Provider Ratio",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Patient to Primary Care Physician Ratio",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Potentially Avoidable Emergency Department Visits, Per 1,000 Medicare Beneficiaries",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Treatment for Depression Among Adolescents (12-17) With MDE",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Uninsured",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Uninsured",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Uninsured Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Uninsured Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans Affairs Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans Affairs Coverage Plans",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans Affairs Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Veterans Affairs Coverage Plans Percentage",
+    "dimNames": [
+      "Geography",
+      "Age Group",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Access and Quality",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Adults With Major Depressive Episode",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Behavioral Health Conditions",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Adults With Serious Mental Illness",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Behavioral Health Conditions",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Drug Overdose Death Rate Per 100,000 Age-Adjusted",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Behavioral Health Conditions",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Opioid Overdose Death Rate Per 100,000 Age-Adjusted",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Behavioral Health Conditions",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Substance Use Disorder Among Adolescents and Adults (12+)",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Behavioral Health Conditions",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Access To Exercise Opportunities",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Adult Obesity",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Adult Smoking",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Air Pollution",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Children In Poverty",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Children In Single-Parent Households",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Diabetes Monitoring",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Disconnected Youth",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Excessive Drinking",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Food Environment Index",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Food Insecurity",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "High School Graduation",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Inadequate Social Support",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Income Inequality",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Limited Access To Healthy Foods",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Low Birthweight",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Median Household Income",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Nonmedical Use of Prescription Pain Relievers Among Individuals Aged 12+",
+    "dimNames": [
+      "End Year",
+      "Geography",
+      "Start Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "Substance Abuse and Mental Health Services Administration (SAMHSA)"
+  },
+  {
+    "name": "Physical Inactivity",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Residential Segregation—black/white",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Residential Segregation—non-White/white",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Severe Housing Problems",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Social Associations",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Unemployment",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Violent Crime",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Drivers of Health",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Health Insurance Policies",
+    "dimNames": [
+      "Geography",
+      "Kaiser Health Coverage",
+      "Age",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Care Coverage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Health Insurance Policies",
+    "dimNames": [
+      "Geography",
+      "Kaiser Health Coverage",
+      "Age",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Care Coverage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Health Insurance Policies",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Care Coverage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Health Insurance Policies",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Health Coverage",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Care Coverage",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Diabetes Prevalence",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Outcomes",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Hiv Prevalence",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Outcomes",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Poor Mental Health Days",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Outcomes",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Poor Physical Health Days",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Outcomes",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Sexually Transmitted Infections",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Health Outcomes",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Per Enrollee Medicaid Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Share of Medicaid Spending to Adults",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Share of Medicaid Spending to Children",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Share of Medicaid Spending to the Disabled Population",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Share of Medicaid Spending to the Elderly Population",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Kaiser Family Foundation"
+  },
+  {
+    "name": "Total Medicaid Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicaid Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Doctor's Office Visit Medicare Spending Per Capita",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Home Health Medicare Spending Per Capita",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Inpatient Medicare Spending Per Capita",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Per Enrollee Medicare Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Skilled Nursing Facility Medicare Spending Per Capita",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "The Commonwealth Fund"
+  },
+  {
+    "name": "Total Medicare Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Medicare Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Alcohol-Impaired Driving Deaths",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Child Mortality",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Firearm Fatalities",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Homicides",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Infant Mortality",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Injury Deaths",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Motor Vehicle Crash Deaths",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Premature Death",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Mortality",
+    "sourceName": "County Health Rankings & Roadmaps"
+  },
+  {
+    "name": "Per Enrollee Private Health Insurance Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Private Insurance Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Private Health Insurance Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Private Insurance Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Dental Services",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Drugs and Other Non-Durable Products",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Durable Medical Equipment",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Home Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Hospital Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Nursing Care Facilities and Continuing Care Retirement Communities",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Other Health Residential and Personal Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Other Professional Services",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Personal Health Care",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Total Per Capita Spending on Physician and Clinical Services",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Health",
+    "subtopic": "Total Health Care Spending",
+    "sourceName": "Centers for Medicare and Medicaid Services (CMS)"
+  },
+  {
+    "name": "Household Ownership",
+    "dimNames": [
+      "Geography",
+      "Occupied By",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Household Ownership",
+    "dimNames": [
+      "Geography",
+      "Occupied By",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Households by Internet Access",
+    "dimNames": [
+      "Geography",
+      "Internet Access",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Households by Kitchen Type",
+    "dimNames": [
+      "Geography",
+      "Kitchen Facilities",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Households by Kitchen Type",
+    "dimNames": [
+      "Geography",
+      "Kitchen Facilities",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Households by Plumbing Type",
+    "dimNames": [
+      "Geography",
+      "Plumbing Facilities",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Households by Plumbing Type",
+    "dimNames": [
+      "Geography",
+      "Plumbing Facilities",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Property Value",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Property Value",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Property Value by Bucket",
+    "dimNames": [
+      "Geography",
+      "Value Bucket",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Property Value by Bucket",
+    "dimNames": [
+      "Geography",
+      "Value Bucket",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Real Estate Taxes by Mortgage",
+    "dimNames": [
+      "Geography",
+      "Mortgage Status",
+      "Real Estate Taxes Paid",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Real Estate Taxes by Mortgage",
+    "dimNames": [
+      "Geography",
+      "Mortgage Status",
+      "Real Estate Taxes Paid",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Renters by Income Percentage",
+    "dimNames": [
+      "Geography",
+      "Gross Rent Percent of Income",
+      "Household Income",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Renters by Income Percentage",
+    "dimNames": [
+      "Geography",
+      "Gross Rent Percent of Income",
+      "Household Income",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Housing",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Household Income",
+    "dimNames": [
+      "Geography",
+      "Household Income Bucket",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Household Income",
+    "dimNames": [
+      "Geography",
+      "Household Income Bucket",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Household Income by Race",
+    "dimNames": [
+      "Geography",
+      "Race",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Household Income by Race",
+    "dimNames": [
+      "Geography",
+      "Race",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Poverty Population",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Poverty Status",
+      "Race"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Poverty Population",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Poverty Status",
+      "Race"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Poverty Rate",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Poverty Status",
+      "Race"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Poverty Rate",
+    "dimNames": [
+      "Geography",
+      "Age",
+      "Gender",
+      "Poverty Status",
+      "Race"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Wage GINI",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Wage GINI",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Income",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Commute Time",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Average Commute Time",
+    "dimNames": [
+      "Geography",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means by Gender",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Vehicles Available",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means by Gender",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means by Gender",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commute Means by Gender",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Vehicles Available",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commuter Population",
+    "dimNames": [
+      "Geography",
+      "Travel Time",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Commuter Population",
+    "dimNames": [
+      "Geography",
+      "Travel Time",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Commute Time",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Commute Time",
+    "dimNames": [
+      "Geography",
+      "Gender",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Commute Time",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Total Commute Time",
+    "dimNames": [
+      "Geography",
+      "Transportation",
+      "Year"
+    ],
+    "topic": "Housing & Living",
+    "subtopic": "Transportation",
+    "sourceName": "Census Bureau"
+  },
+  {
+    "name": "Industry Jobs CARC 2008-2018",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs CARC 2018-2028",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Change 2008-2018",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Change 2018-2028",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2008",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2018",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Jobs Thousands 2028",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2008",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2018",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output Billions 2028",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output CARC 2008-2018",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Industry Output CARC 2018-2028",
+    "dimNames": [
+      "BLS Industry Flat"
+    ],
+    "topic": "Industry",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Change Percent 2018-2028",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Change Thousands 2008-2018",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Openings Thousands 2018-2028",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Percent 2018",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Percent 2028",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Thousands 2018",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  },
+  {
+    "name": "Occupation Employment Thousands 2028",
+    "dimNames": [
+      "BLS Occupation Flat"
+    ],
+    "topic": "Occupation",
+    "subtopic": "Other",
+    "sourceName": "Bureau of Labor Statistics"
+  }
+]

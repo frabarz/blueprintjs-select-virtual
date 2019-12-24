@@ -1,13 +1,18 @@
 import React from "react";
-import levels from "../levels.json";
-import measures from "../measures.json";
 import LevelSelect from "./LevelSelector";
 import MeasureSelect from "./MeasureSelector";
-// import List from "react-viewport-list";
-import List from "../components/ViewportList";
 
 class App extends React.Component {
-  state = {measures, levels, measure: measures[0], level: levels[0]};
+  state = {measures: [], levels: []};
+
+  componentDidMount() {
+    fetch("levels.json")
+      .then(res => res.json())
+      .then(levels => this.setState({levels, level: levels[0]}));
+    fetch("measures.json")
+      .then(res => res.json())
+      .then(measures => this.setState({measures, measure: measures[0]}));
+  }
 
   render() {
     const {measures, levels, measure, level} = this.state;
@@ -22,6 +27,7 @@ class App extends React.Component {
             selectedItem={measure}
           />
         )}
+        <hr />
         {level && (
           <LevelSelect
             items={levels}
@@ -29,16 +35,6 @@ class App extends React.Component {
             selectedItem={level}
           />
         )}
-        <hr />
-        <ul style={{height: 200, width: 300, margin: "auto", overflow: "auto"}}>
-          <List listLength={measures.length} itemMinHeight={10}>
-            {({innerRef, index, style}) => (
-              <li ref={innerRef} key={index} style={style} className="vl-item">
-                {measures[index].name}
-              </li>
-            )}
-          </List>
-        </ul>
       </div>
     );
   }

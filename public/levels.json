@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Major Occupation Group",
+    "dimension": "PUMS Occupation",
+    "hierarchy": "PUMS Occupation"
+  },
+  {
+    "name": "Minor Occupation Group",
+    "dimension": "PUMS Occupation",
+    "hierarchy": "PUMS Occupation"
+  },
+  {
+    "name": "Broad Occupation",
+    "dimension": "PUMS Occupation",
+    "hierarchy": "PUMS Occupation"
+  },
+  {
+    "name": "Detailed Occupation",
+    "dimension": "PUMS Occupation",
+    "hierarchy": "PUMS Occupation"
+  },
+  {
+    "name": "Nation",
+    "dimension": "Geography",
+    "hierarchy": "Geography"
+  },
+  {
+    "name": "State",
+    "dimension": "Geography",
+    "hierarchy": "Geography"
+  },
+  {
+    "name": "PUMA",
+    "dimension": "Geography",
+    "hierarchy": "Geography"
+  },
+  {
+    "name": "Industry Sector",
+    "dimension": "PUMS Industry",
+    "hierarchy": "PUMS Industry"
+  },
+  {
+    "name": "Industry Sub-Sector",
+    "dimension": "PUMS Industry",
+    "hierarchy": "PUMS Industry"
+  },
+  {
+    "name": "Industry Group",
+    "dimension": "PUMS Industry",
+    "hierarchy": "PUMS Industry"
+  },
+  {
+    "name": "Citizenship Status Parent",
+    "dimension": "Citizenship Status",
+    "hierarchy": "Citizenship Status"
+  },
+  {
+    "name": "Citizenship Status",
+    "dimension": "Citizenship Status",
+    "hierarchy": "Citizenship Status"
+  },
+  {
+    "name": "Employment Status Parent",
+    "dimension": "Employment Status",
+    "hierarchy": "Employment Status"
+  },
+  {
+    "name": "Employment Status",
+    "dimension": "Employment Status",
+    "hierarchy": "Employment Status"
+  },
+  {
+    "name": "Group",
+    "dimension": "PUMS Degree",
+    "hierarchy": "PUMS Degree"
+  },
+  {
+    "name": "Degree",
+    "dimension": "PUMS Degree",
+    "hierarchy": "PUMS Degree"
+  },
+  {
+    "name": "CIP2",
+    "dimension": "PUMS Degree Field",
+    "hierarchy": "PUMS Degree Field"
+  },
+  {
+    "name": "FOD1P",
+    "dimension": "PUMS Degree Field",
+    "hierarchy": "PUMS Degree Field"
+  },
+  {
+    "name": "PUMS Ethnicity Parent",
+    "dimension": "PUMS Ethnicity",
+    "hierarchy": "PUMS Ethnicity"
+  },
+  {
+    "name": "PUMS Ethnicity",
+    "dimension": "PUMS Ethnicity",
+    "hierarchy": "PUMS Ethnicity"
+  },
+  {
+    "name": "Age",
+    "dimension": "Age",
+    "hierarchy": "Age"
+  },
+  {
+    "name": "Age Five Plus",
+    "dimension": "Age Five Plus",
+    "hierarchy": "Age Five Plus"
+  },
+  {
+    "name": "Birthplace",
+    "dimension": "Birthplace",
+    "hierarchy": "Birthplace"
+  },
+  {
+    "name": "Employment Time Status",
+    "dimension": "Employment Time Status",
+    "hierarchy": "Employment Time Status"
+  },
+  {
+    "name": "Gender",
+    "dimension": "Gender",
+    "hierarchy": "Gender"
+  },
+  {
+    "name": "Nativity",
+    "dimension": "Nativity",
+    "hierarchy": "Nativity"
+  },
+  {
+    "name": "Race",
+    "dimension": "Race",
+    "hierarchy": "Race"
+  },
+  {
+    "name": "Veteran Status",
+    "dimension": "Veteran Status",
+    "hierarchy": "Veteran Status"
+  },
+  {
+    "name": "Wage Bin",
+    "dimension": "Wage Bin",
+    "hierarchy": "Wage Bin"
+  },
+  {
+    "name": "Weeks Worked",
+    "dimension": "Weeks Worked",
+    "hierarchy": "Weeks Worked"
+  },
+  {
+    "name": "Workforce Status",
+    "dimension": "Workforce Status",
+    "hierarchy": "Workforce Status"
+  }
+]
