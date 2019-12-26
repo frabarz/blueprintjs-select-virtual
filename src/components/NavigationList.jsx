@@ -1,10 +1,11 @@
 import {Button, Classes, Icon, Menu, Text} from "@blueprintjs/core";
 import {group} from "d3-array";
-import React, {useMemo, useState} from "react";
+import React, {useMemo, useState, Fragment} from "react";
 
 /**
  * @template T
  * @typedef OwnProps
+ * @property {string[]} [initialStack]
  * @property {((d: T, i: number, dl: T[]) => string)[]} levels
  * @property {boolean} [multiline]
  */
@@ -13,9 +14,15 @@ import React, {useMemo, useState} from "react";
  * @template T
  * @type {React.FC<import("@blueprintjs/select").IItemListRendererProps<T> & OwnProps<T>>}
  */
-const NavigationList = function({items, renderItem, levels = [], multiline = true}) {
+const NavigationList = function({
+  initialStack = [],
+  items,
+  levels = [],
+  multiline = true,
+  renderItem
+}) {
   const hierarchy = useMemo(() => group(items, ...levels), [items, levels]);
-  const [stack, setStack] = useState([]);
+  const [stack, setStack] = useState(initialStack);
 
   const pushCategory = (parent, childMap) => {
     const nextStack = stack.concat(parent);
@@ -45,7 +52,7 @@ const NavigationList = function({items, renderItem, levels = [], multiline = tru
   const categories = stack.reduce((map, layer) => map.get(layer), hierarchy);
 
   const listElements = Array.isArray(categories)
-    ? categories.map(renderItem)
+    ? categories.map((item, index) => <li key={index}>{renderItem(item, index)}</li>)
     : Array.from(categories, ([parent, childMap]) => (
         <li key={parent}>
           <a onClick={() => pushCategory(parent, childMap)} className={Classes.MENU_ITEM}>
@@ -58,7 +65,7 @@ const NavigationList = function({items, renderItem, levels = [], multiline = tru
       ));
 
   return (
-    <div className="hierarchy-list">
+    <Fragment>
       {stack.length > 0 && (
         <div className="hierarchy-list-header">
           <Button icon="arrow-left" onClick={popCategory} />
@@ -66,7 +73,7 @@ const NavigationList = function({items, renderItem, levels = [], multiline = tru
         </div>
       )}
       <Menu className="hierarchy-list-content">{listElements}</Menu>
-    </div>
+    </Fragment>
   );
 };
 

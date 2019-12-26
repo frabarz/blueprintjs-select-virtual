@@ -10,7 +10,7 @@
 .hierarchy-list-token {
   display: block;
 }
-
+.hierarchy-list-content,
 .filter-list-content {
   max-height: 400px;
   overflow: auto;

@@ -1,6 +1,6 @@
-import React from "react";
-import {Icon, Text, Classes, H6} from "@blueprintjs/core";
+import {Classes, Icon, Text} from "@blueprintjs/core";
 import classNames from "classnames";
+import React from "react";
 
 export function MenuItem({
   active,
@@ -46,10 +46,6 @@ export function MenuItem({
     labelElement,
     rightIcon ? <Icon icon={rightIcon} /> : undefined
   );
-}
-
-export function MenuHeader({className = "", title}) {
-  return <H6 className={className}>{title}</H6>;
 }
 
 // props to ignore when disabled

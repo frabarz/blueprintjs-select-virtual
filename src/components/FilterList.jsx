@@ -1,86 +1,61 @@
-import {Classes, H6, Menu} from "@blueprintjs/core";
+import {Menu, MenuDivider} from "@blueprintjs/core";
 import {rollup} from "d3-array";
-import React, {useCallback, useMemo} from "react";
-// import List from "react-viewport-list";
-import List from "./ViewportList";
+import React, {useMemo} from "react";
+import List from "react-viewport-list";
 
-/**
- * @typedef MenuHeader
- * @property {boolean} isOptgroup 
- * @property {string[]} headers
- */
-
-/** @returns {item is MenuHeader} */
-function isMenuHeader(item) {
-  return item && item.isOptgroup;
-}
 /** 
  * @template T
  * @type {React.FC<import("@blueprintjs/select").IItemListRendererProps<T> & {levels: ((d: T) => string)[]}>} 
  */
 const FilterList = function({activeItem, filteredItems, levels, renderItem}) {
-  const [groupedItems, stickyIndices] = useMemo(
+  const groupList = useMemo(
     () => {
-      const groupedItems = [];
-      const stickyIndices = [];
+      const itemGroups = [];
       const groupComposer = group => {
         const firstObj = group[0];
-        const headers = levels
+        const header = levels
           .map(fn => fn(firstObj))
           .filter((token, index, list) => list.indexOf(token) === index);
-        stickyIndices.push(groupedItems.length);
-        groupedItems.push({isOptgroup: true, headers}, ...group);
+        itemGroups.push({group, header});
       };
       rollup(filteredItems, groupComposer, ...levels);
-      return [groupedItems, stickyIndices];
+      return itemGroups;
     },
     [filteredItems, levels]
   );
 
-  const listRenderer = useCallback(
-    ({innerRef, index, style}) => {
-      const item = groupedItems[index];
-      if (isMenuHeader(item)) {
-        const key = item.headers.join("-");
-        return (
-          // <Fragment>
-          //   <li className="positioner" key={`position-${key}`} style={style} ref={innerRef} />
-          <li
-            className={`${Classes.MENU_HEADER} filter-list-optgroup`}
-            key={`header-${key}`}
-            style={style}
-          >
-            <H6>{item.headers.join("\n")}</H6>
-          </li>
-          // </Fragment>
-        );
-      }
-      else {
-        return (
+  const listElements = useMemo(
+    () =>
+      groupList.reduce((list, {group, header}) => {
+        const activeIndex = group.indexOf(activeItem);
+        const keySuffix = header.join("-");
+        const listRenderer = ({innerRef, index, style}) => (
           <li key={`item-${index}`} ref={innerRef} style={style}>
-            {renderItem(item, index)}
+            {renderItem(group[index], index)}
           </li>
         );
-      }
-    },
-    [groupedItems]
+
+        return list.concat(
+          <MenuDivider
+            className="filter-list-optgroup"
+            key={`header-${keySuffix}`}
+            title={header.join("\n")}
+          />,
+          <List
+            children={listRenderer}
+            fixed={true}
+            itemMinHeight={50}
+            key={`list-${keySuffix}`}
+            listLength={group.length}
+            overscan={1}
+            scrollToIndex={activeIndex}
+          />
+        );
+      }, []),
+    [activeItem, groupList]
   );
 
-  const activeIndex = groupedItems.indexOf(activeItem);
-
-  return (
-    <Menu className="filter-list-content">
-      <List
-        itemMinHeight={50}
-        listLength={groupedItems.length}
-        overscan={6}
-        scrollToIndex={activeIndex}
-        stickyIndexes={stickyIndices}
-      >
-        {listRenderer}
-      </List>
-    </Menu>
-  );
+  return <Menu className="filter-list-content">{listElements}</Menu>;
 };
 
 export default FilterList;

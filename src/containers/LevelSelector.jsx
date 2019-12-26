@@ -1,5 +1,6 @@
 import {Button} from "@blueprintjs/core";
 import {Select} from "@blueprintjs/select";
+import escapeRegExp from "lodash/escapeRegExp";
 import React, {Component} from "react";
 import FilterList from "../components/FilterList";
 import {MenuItem} from "../components/Menu";
@@ -42,17 +43,10 @@ class LevelSelect extends Component {
 
 /** @type {import("@blueprintjs/select").ItemListPredicate<LevelItem>} */
 function itemListPredicate(query, items) {
-  const test = new RegExp(query, "i");
-  return items.filter(item => test.test(item.name));
-  // query = query.trim();
-  // query = escapeRegExp(query).replace(/\s+/g, "[^|]+");
-  // const queryTester = RegExp(query || ".", "i");
-  // return items
-  //   .filter(item => "isOptgroup" in item || queryTester.test(item.searchIndex))
-  //   .filter(
-  //     (item, index, array) =>
-  //       !item.isOptgroup || (array[index + 1] && !array[index + 1].isOptgroup)
-  //   );
+  query = query.trim();
+  query = escapeRegExp(query).replace(/\s+/g, "[^|]+");
+  const queryTester = RegExp(query || ".", "i");
+  return items.filter(item => queryTester.test(item.caption));
 }
 
 /** @type {import("@blueprintjs/select").ItemRenderer<LevelItem>} */
